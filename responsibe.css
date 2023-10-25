@@ -1,0 +1,102 @@
+
+@media only screen and (max-width: 1320px) {
+    header{
+        padding: 0px 5%; 
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .hamburger{
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger .line{
+        width: 30px;
+        height: 3px;
+        background: #fefefe;
+        margin: 6px 0px;
+    }
+
+    .navbar{
+        height: 0;
+        position: absolute;
+        top: 30px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: #161616;
+        transition: 0.5s;
+        overflow: hidden;
+    }
+
+    .navbar.active{
+        height: 80vh;
+    }
+
+    .navbar ul{
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+
+    .navbar.active ul{
+        opacity: 1;
+    }
+
+    .navbar ul li a{
+        margin-bottom: 16px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    header{
+        padding: 0px 5%; 
+    }
+
+    .section{
+        padding: 24px;
+    }
+
+    .tech-skill{
+        flex-basis: 100%;
+    }
+
+    .prof-skill{
+        flex-basis: 100%;
+        margin-top: 32px;
+    }
+
+    .service-box{
+        flex-basis: 100%;
+    }
+
+    
+    .layer{
+    height: 100%;
+    }
+
+    .contact-left{
+        flex-basis: 100%;
+    }
+    .contact-right{
+        flex-basis: 100%;
+    }
+
+    .home-content{
+        top: 70%;
+        left: 2%;
+        font-size: 18px;
+
+    }
+
+    .buttons{
+        display: none;
+    }
+    
+
+}
